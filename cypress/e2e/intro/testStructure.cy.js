@@ -28,15 +28,15 @@ describe('Context: My First Test', () => {
       expect(true).to.equal(true);
     });
   
-    xit('Test 3', () => {
+    it('Test 3', () => {
       expect(true).to.equal(true);
     });
   
-    it.skip('Test 4', () => {
+    it('Test 4', () => {
       expect(true).to.equal(true);
     });
   
-    it.only('Test 5', () => {
+    it('Test 5', () => {
       expect(true).to.equal(true);
     });
   });
